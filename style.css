@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: darkgrey;
+}
+
+header {
+    background: yellow;
+}
+.Navbar {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+}
+a {
+    color: teal;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo {
+    float: left;
+}
+
+a:hover {
+    color: black;
+}
+
+a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #444;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 150ms;
+}
+
+a:hover::before {
+    width: 100%
+
+}
+
