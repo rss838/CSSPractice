@@ -3,6 +3,7 @@ body {
     background-color: darkgrey;
 }
 
+/* Navbar */
 header {
     background: yellow;
 }
@@ -17,19 +18,19 @@ header::after {
     clear: both;
 }
 
-ul {
+.Navbar ul {
     margin: 0;
     padding: 0;
     list-style: none;
     float: right;
 }
-li {
+.Navbar li {
     display: inline-block;
     margin-left: 70px;
     padding-top: 23px;
     position: relative;
 }
-a {
+.Navbar a {
     color: teal;
     text-decoration: none;
     text-transform: uppercase;
@@ -38,11 +39,11 @@ a {
     float: left;
 }
 
-a:hover {
+.Navbar a:hover {
     color: black;
 }
 
-a::before {
+.Navbar a::before {
     content: '';
     display: block;
     height: 5px;
@@ -54,8 +55,27 @@ a::before {
     transition: all ease-in-out 150ms;
 }
 
-a:hover::before {
+.Navbar a:hover::before {
     width: 100%
 
 }
 
+/*About Page Styling*/
+.About {
+    padding-left: 5%;
+}
+
+.About h2 {
+    color: darkred;
+}
+
+/*General Link States*/
+a:link {
+text-decoration: none;
+}
+a:hover {
+color: blue;
+}
+a:active {
+color: white;
+}
