@@ -79,3 +79,56 @@ color: blue;
 a:active {
 color: white;
 }
+
+/*Flexbox Page Stylingignigngingiging*/
+.flexbox {
+display: flex;
+flex-direction: column;
+}
+
+.flexbox div {
+    border: 1px #ccc solid;
+    padding: 10px;
+
+}
+
+.box1 {
+    text-align: center;
+
+}
+
+.bob {
+    text-decoration: none;
+    list-style: none;
+    color: cyan;
+}
+.listitem2 {
+    color: red;
+}
+.box3 {
+    text-align: right;
+    background-color: purple;
+}
+
+.flexbox2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flexbox2 div {
+    border: 4px darkblue dotted;
+    padding: 10px;
+}
+.box2-2 {
+    background-color: darksalmon
+}
+.box2-3 {
+    background-color: dimgray;
+}
+
+
+/*Link Practice Styling*/
+.linkpractice {
+    padding-left: 5%;
+}
